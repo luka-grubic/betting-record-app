@@ -25,7 +25,7 @@
         public static void AddBetslip(Betslip _betslip)
         {
             BettingRecord.Betslips.Add(_betslip);
-            UtilitySorting.SortBetslipListByDate(BettingRecord.Betslips);
+            UtilitySort.SortBetslipListByDate(BettingRecord.Betslips);
 
             Recommendations.Update(_betslip);
         }
@@ -33,7 +33,7 @@
         public static void EditBetslip(int _betslipIndex, Betslip _betslip)
         {
             BettingRecord.Betslips[_betslipIndex] = _betslip;
-            UtilitySorting.SortBetslipListByDate(BettingRecord.Betslips);
+            UtilitySort.SortBetslipListByDate(BettingRecord.Betslips);
 
             Recommendations.Update(_betslip);
         }
@@ -46,7 +46,7 @@
         public static void AddEvent(int _betslipIndex, Event _event)
         {
             BettingRecord.Betslips[_betslipIndex].Events.Add(_event);
-            UtilitySorting.SortEventListByDateTime(BettingRecord.Betslips[_betslipIndex].Events);
+            UtilitySort.SortEventListByDateTime(BettingRecord.Betslips[_betslipIndex].Events);
 
             Recommendations.Update(_event);
         }
@@ -54,7 +54,7 @@
         public static void EditEvent(int _betslipIndex, int _eventIndex, Event _event)
         {
             BettingRecord.Betslips[_betslipIndex].Events[_eventIndex] = _event;
-            UtilitySorting.SortEventListByDateTime(BettingRecord.Betslips[_betslipIndex].Events);
+            UtilitySort.SortEventListByDateTime(BettingRecord.Betslips[_betslipIndex].Events);
 
             Recommendations.Update(_event);
         }

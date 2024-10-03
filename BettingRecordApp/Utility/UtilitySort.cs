@@ -4,7 +4,7 @@
 
 namespace BettingRecordApp
 {
-    public static class UtilitySorting
+    public static class UtilitySort
     {
         // --- Event sorting ---
 
