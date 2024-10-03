@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<BettingRecord>
+    <Betslips>
+        <Betslip>
+            <ID></ID>
+            <Provider></Provider>
+            <Date></Date>
+            <EventCount></EventCount>
+            <Wager></Wager>
+            <PossiblePayout></PossiblePayout>
+            <Payout></Payout>
+            <TotalOdds></TotalOdds>
+            <Status></Status>
+            <Events>
+                <Event>
+                    <EventInfo DateTime="" Home="" Away=""/>
+                    <SportInfo Sport="" League=""/>
+                    <BetInfo BetCategory="" Bet="" IsLive=""/>
+                    <Status></Status>
+                </Event>
+            </Events>
+        </Betslip>
+    </Betslips>
+</BettingRecord>

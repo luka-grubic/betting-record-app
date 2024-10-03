@@ -1,0 +1,36 @@
+{
+	"BettingRecord": {
+		"Betslips": {
+			"Betslip": {
+				"ID": "",
+				"Provider": "",
+				"Date": "",
+				"EventCount": "",
+				"Wager": "",
+				"PossiblePayout": "",
+				"Payout": "",
+				"TotalOdds": "",
+				"Status": "",
+				"Events": {
+					"Event": {
+						"EventInfo": {
+							"DateTime": "",
+							"Home": "",
+							"Away": ""
+						},
+						"SportInfo": {
+							"Sport": "",
+							"League": ""
+						},
+						"BetInfo": {
+							"BetCategory": "",
+							"Bet": "",
+							"IsLive": ""
+						},
+						"Status": ""
+					}
+				}
+			}
+		}
+	}
+}
