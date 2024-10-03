@@ -25,6 +25,11 @@ namespace BettingRecordApp
 
         // --- Actions ---
 
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // TO DO
+        }
+
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // TO DO
