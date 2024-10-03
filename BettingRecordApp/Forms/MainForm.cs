@@ -25,6 +25,28 @@ namespace BettingRecordApp
 
         // --- Actions ---
 
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // TO DO
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // TO DO
+        }
+
+        private void saveAndExitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // TO DO
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+
         // --- Other
     }
 }
