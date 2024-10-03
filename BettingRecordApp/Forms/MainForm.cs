@@ -18,7 +18,7 @@ namespace BettingRecordApp
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            this.Text = $"BettingRecordApp (v{CommonConstant.VERSION})";
+            this.Text = $"BettingRecordApp (v{CommonConstants.VERSION})";
         }
 
 

@@ -18,7 +18,7 @@
                 <Event>
                     <EventInfo DateTime="" Home="" Away=""/>
                     <SportInfo Sport="" League=""/>
-                    <BetInfo BetCategory="" Bet="" IsLive=""/>
+                    <BetInfo BetCategory="" Bet="" IsMultibet="" IsLive="" Odds=""/>
                     <Status></Status>
                 </Event>
             </Events>
